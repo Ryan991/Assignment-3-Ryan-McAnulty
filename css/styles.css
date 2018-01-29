@@ -1,0 +1,67 @@
+table {
+    border: 1px solid #ddd;
+    box-shadow: 10px 20px 20px #ddd;
+    font-family: sans-serif;
+}
+
+table,
+td,
+th {
+    border-bottom: 1px solid #ddd;
+    margin: 100px auto;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background: #b22222;
+    color: rgba(255,255,255, 0.8);
+    font-weight: 600;
+}
+
+td {
+    padding-left: 75px;
+    font-weight: 600;
+}
+
+caption {
+    color: #b22222;
+    caption-side: top;
+    font-weight: 700px;
+    font-size: 30px;
+    padding-bottom: 0;
+    padding-left: 5px;
+}
+
+.header-left {
+    text-align: left;
+    background-color: #b22222;
+    padding: 10px;
+}
+
+.left {
+    text-align: left;
+    background-color: #ddd;
+    opacity: .7;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.right {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.right-two {
+    text-align: center;
+    padding-right: 5px;
+}
+.humidity {
+    padding-right: 25px;
+    /* font-weight: 600; */
+}
+.temperature {
+    padding-right: 10px;
+}
